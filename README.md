@@ -58,7 +58,4 @@ Para enviar uma imagem para identificação, use: upload_image('imagem.jpg').
 
 Este projeto está em desenvolvimento ativo. Você pode esperar mudanças frequentes e atualizações.
 
-## Screenshots
-
-![Screenshot 1](link-para-screenshot.png)
 
