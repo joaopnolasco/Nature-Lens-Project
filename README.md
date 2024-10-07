@@ -1,40 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto-de-Engenharia-de-Software
 
-## Getting Started
 
-First, run the development server:
+# NatureLens
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()  
+[![GitHub Issues](https://img.shields.io/github/issues/IF977/if977-project-standards.svg)](https://github.com/IF977/if977-project-standards/issues)  
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/IF977/if977-project-standards.svg)](https://github.com/IF977/if977-project-standards/pulls)  
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Descrição
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+**NatureLens** é uma aplicação que identifica espécies de plantas e animais a partir de imagens, utilizando IA e integração com APIs como Google Gemini Vision Pro e GBIF, promovendo a conscientização ambiental.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Início Rápido
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Pré-requisitos
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Para instalar o software: npm install naturelens.
 
-## Learn More
+### Instalação
 
-To learn more about Next.js, take a look at the following resources:
+Clone o repositório: git clone https://github.com/NatureLens/naturelens.git.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Instale as dependências: npm install.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Configure o banco de dados com as credenciais da API.
 
-## Deploy on Vercel
+## Uso
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Para enviar uma imagem para identificação, use: upload_image('imagem.jpg').
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Funcionalidades
+
+- **Identificação de espécies:** O usuário faz upload de uma imagem, e o sistema identifica se é uma planta ou animal, retornando detalhes como nome científico e habitat.
+- **Login via Google OAuth:** O sistema permite login via Google para uma experiência segura.
+- **Interface de chat com IA:** O usuário pode interagir com a IA após o upload da imagem.
+
+
+## Créditos
+
+- **Nome do autor** João Paulo Nolasco e Ayrton Guimarães
+
+## FAQ
+
+**Pergunta 1:** Como funciona a identificação de espécies?  
+**Resposta:** O NatureLens utiliza inteligência artificial, através do Google Gemini Vision Pro, para analisar a imagem enviada pelo usuário e identificar se é uma planta ou um animal, retornando informações detalhadas sobre a espécie.
+
+**Pergunta 2:** O NatureLens coleta dados pessoais?
+
+**Resposta:** Sim, a autenticação via Google OAuth pode coletar informações básicas do perfil do usuário, mas essas informações são utilizadas apenas para fins de personalização e não são compartilhadas com terceiros.
+
+## Estado do Projeto
+
+Este projeto está em desenvolvimento ativo. Você pode esperar mudanças frequentes e atualizações.
+
+## Screenshots
+
+![Screenshot 1](link-para-screenshot.png)
+
