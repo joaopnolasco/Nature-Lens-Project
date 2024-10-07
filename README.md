@@ -5,12 +5,7 @@
 ![Captura de tela 2024-10-07 113704](https://github.com/user-attachments/assets/aa7a6b69-9877-4ce2-b809-f4f0c0c2609a)
 ![Captura de tela 2024-10-07 115731](https://github.com/user-attachments/assets/e7c01703-7578-41aa-81ea-3a137c0590b6)
 
-# NatureLens
-
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()  
-[![GitHub Issues](https://img.shields.io/github/issues/IF977/if977-project-standards.svg)](https://github.com/IF977/if977-project-standards/issues)  
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/IF977/if977-project-standards.svg)](https://github.com/IF977/if977-project-standards/pulls)  
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)  
+# NatureLens 
 
 ## Descrição
 
